@@ -1,4 +1,7 @@
- body { 
+<!DOCTYPE CSS> 
+<head> 
+<style> 
+body { 
         margin: 0; 
         padding: 16px;
         height: 100vh;
@@ -77,3 +80,5 @@
           margin-left: 50px; 
           margin-right: 40px; 
         }
+</head> 
+</style> 
