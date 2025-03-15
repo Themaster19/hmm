@@ -1,50 +1,11 @@
+<link rel = "stylesheet" href="vday.css"> 
 <!DOCTYPE html> 
-<html lang="en"> 
+<html> 
 <head> 
-   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale= 1.0">
-  <title> Something random <3 </title>
-<link rel="stylesheet" href="styles.css">
+<title> Something random <3 </title>
+</head> 
+<body> 
+<div class="random_card">
+<img SFC="love.jpg" class="front_img"> 
+<div class="front_text"> 
 
-<style>
-  body { 
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Noto Sans Bengali', sans-serif; 
-background-image: url(https://pin.it/2CPOMzjle.jpg);
-background-position: center; 
-background-repeat: no-repeat; 
-background-size: cover;
-}
-
-.container { 
-max-width: 1100px; 
-margin: 0 auto;
-padding: 20px; 
-
-} 
-
-@media (max-width: 1100px) {
-.container { 
-padding: 10px;
-}
-
-body { 
-background-image: url(https://pin.it/2CPOMzjle.jpg); 
-} 
-  }
-</style> 
-</head>
-<body>
-
-<div class="container"> 
-
-</div>
-
-
-
-
-</body>
-</html> 
