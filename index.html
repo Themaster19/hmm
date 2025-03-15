@@ -2,6 +2,60 @@
 <!DOCTYPE html> 
 <html> 
 <head> 
+<style> 
+body { 
+margin: 0; 
+padding: 16px;
+height: 100vh;
+background: #191970;
+display: flex;
+align-items: center; 
+justify-content: center; 
+} 
+.random_card {
+  positions: relative; 
+  cursor: pointer;
+  transform-style: preserve-3d; 
+  transform: perspective(2500px); 
+  transition: 4s; 
+} 
+.front_img {
+  width:450px; 
+  margin-right: -50px; 
+  margin-left: -50px; 
+  margin-top: 100px; 
+  positions: relative;
+} 
+.inside_img { 
+  width: 350px;
+  margin-right: -50px 
+  margin-left: -50px
+  margin-top: 100px; 
+  position: relatives; 
+}
+.random_card:hover .front_card {
+  transform: rotateY(-160deg); 
+}
+.random_card:hover .front_text {
+  display: none;
+} 
+.front_text, .inside_text { 
+  color: #90D5FF; 
+  font-family: 'New times roman', bold; 
+  font-size: 24px;
+} 
+.front_card { 
+  position: relative;
+  overflow: hidden;
+  transform-origin: left; 
+  margin: 40px auto; 
+  padding: 16px; 
+  background-color: #8fd3fe; 
+  text-align: center; 
+  bow-shadow: 0, 24px, 40px, -8px #
+  
+</style>
+  
 <title> Something random <3 </title>
 </head> 
 <body> 
@@ -22,4 +76,6 @@
 <div class="inside_text">
 <h4> From someone that's loved you since the start.. </h4>
 <h3>  Being loved by you has been paradise and I couldn’t have asked for a  better wife. Being loved by you has felt so safe. Thank you for loving me through eveyrhing my love <3 </h3>
-  
+
+body { 
+  margins
