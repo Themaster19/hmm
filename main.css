@@ -1,0 +1,14 @@
+body { 
+margin: 70px;
+padding: 0;
+height: 100vh;
+display: flex; 
+justify-content: center; 
+align-items: center; 
+background-color: #191970; 
+} 
+#card {
+width: 0;
+height: 0; 
+background-color: #ADD8E6;
+border-top: 100px solid 
